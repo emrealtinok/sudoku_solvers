@@ -1,10 +1,10 @@
 # sudoku_solvers
 Attempting to solve Sudoku puzzles with three separate AIs
 
-In order to test the performance of my AIs, I generated 1000 Sudoku puzzles via this website: https://qqwing.com/generate.html
-I also tried to solve the world's hardest Sudoku puzzle: https://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html
+In order to test the performance of my AIs, I generated 1000 Sudoku puzzles via this website: https://qqwing.com/generate.html  
+I also tried to solve the world's hardest Sudoku puzzle: https://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html  
 
-This as an ongoing side project to practice what I learn and explore how I can implement and adapt various AI methods to solve Sudoku puzzles.
+This as an ongoing side project to practice what I learn and explore how I can implement and adapt various AI methods to solve Sudoku puzzles. 
 All my code is written in Python.
 
 ## First AI: Translating Sudoku solving techniques into code.
@@ -50,7 +50,7 @@ When I evaluated the model on the test puzzles, it got an accuracy of 94%. Howev
 
 It was able to solve 907 of the 1000 test puzzles. It couldn't solve the world's hardest Sudoku puzzle.
 
-In conclusion, the final model was quite good at learning, and also it definitely has more room to grow. With better processing power, deeper or wider networks, more precise hyperparameters and longer learning time I believe that neural networks can come to close to being 100% accurate at solving Sudoku puzzles. 
+In conclusion, the final model was quite good at learning, and it definitely has more room to grow. With better processing power, deeper or wider networks, more precise hyperparameters and longer learning time I believe that neural networks can come to close to being 100% accurate at solving Sudoku puzzles. 
 
 
 
