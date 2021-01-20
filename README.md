@@ -4,8 +4,7 @@ Attempting to solve Sudoku puzzles with three separate AIs
 In order to test the performance of my AIs, I generated 1000 Sudoku puzzles via this website: https://qqwing.com/generate.html  
 I also tried to solve the world's hardest Sudoku puzzle: https://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html  
 
-This as an ongoing side project to practice what I learn and explore how I can implement and adapt various AI methods to solve Sudoku puzzles.  
-All my code is written in Python.
+This as an ongoing side project to practice what I learn and explore how I can implement and adapt various AI methods to solve Sudoku puzzles. All my code is written in Python.
 
 ## AI #1: Translating Sudoku solving techniques into code
 
