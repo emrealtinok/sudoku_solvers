@@ -7,7 +7,7 @@ I also tried to solve the world's hardest Sudoku puzzle: https://www.telegraph.c
 This as an ongoing side project to practice what I learn and explore how I can implement and adapt various AI methods to solve Sudoku puzzles. 
 All my code is written in Python.
 
-## First AI: Translating Sudoku solving techniques into code.
+## AI #1: Translating Sudoku solving techniques into code.
 
 File name: SudokuHumanTechniques.py
 
@@ -22,7 +22,7 @@ I stopped building on it at around 500 lines of code with 14 human techniques.
 It was able to solve 594 of the 1000 test puzzles in an hour and it couldn't solve the world's hardest Sudoku puzzle.
 
 
-## Second AI: Using a backtracking algorithm with Sudoku constraints.
+## AI #2: Using a backtracking algorithm with Sudoku constraints.
 
 File name: SudokuBacktracking.py
 
@@ -32,7 +32,7 @@ It was able to solve all 1000 test puzzles in an hour, and it was able to solve 
 
 This AI is by far the most efficient and accurate one. 
 
-## Third AI: Building a densely connected deep convolutional neural network.
+## AI #3: Building a densely connected deep convolutional neural network.
 
 File Name: SudokuDenseNet.ipynb
 
