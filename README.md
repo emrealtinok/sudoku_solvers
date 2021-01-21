@@ -1,5 +1,5 @@
 # sudoku_solvers
-### Attempting to solve Sudoku puzzles with three separate AIs.
+### Attempting to solve Sudoku puzzles with three separate AIs
 
 In order to test the performance of my AIs, I generated 1000 Sudoku puzzles via [this website](https://qqwing.com/generate.html).  
 I also tried to solve the [world's hardest Sudoku puzzle](https://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html).  
