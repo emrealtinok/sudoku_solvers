@@ -8,34 +8,37 @@ This as an ongoing side project to practice what I learn and explore how I can i
 
 ## AI #1: Translating Sudoku solving techniques into code
 
-File name: SudokuHumanTechniques.py
+File name: SudokuHumanTechniques.py 
+[Go to file](https://github.com/emrealtinok/sudoku_solvers/blob/main/SudokuHumanTechniques.py)
 
 In order to implement this AI, I made use of object-oriented programming. The Sudoku grid is a two dimensional Numpy array of 81 objects that represent each unit of the Sudoku puzzle. Each object has a property that represents the value of the unit and a probability dictionary that holds the binary probabilities of the unit getting each value. 
 
 The codified 'human' techniques scan the grid, assign values and re-adjust probabilities according to the new values and probabilities until the puzzle is finished.
 
-After implemeting most of the basic and medium level techniques, I found out that this approach is not very efficient as it uses a lot of for-loops to scan the grid and to alter properties. As the techniques got more advanced, the code got exponentially more computantionally expensive and the AI significantly slowed down. 
+After implemeting most of the basic and medium level techniques, I found out that this approach is not very efficient as it uses a lot of for-loops to scan the grid and to alter  the properties. As the techniques got more advanced, the code got exponentially more computantionally expensive and the AI significantly slowed down. 
 
 I stopped building on it at around 500 lines of code with 14 human techniques.
 
-It was able to solve 594 of the 1000 test puzzles in an hour and it couldn't solve the world's hardest Sudoku puzzle.
+It was able to solve 594 of the 1000 test puzzles and it couldn't solve the world's hardest Sudoku puzzle.
 
 
 ## AI #2: Using a backtracking algorithm with Sudoku constraints
 
 File name: SudokuBacktracking.py
+[Go to file](https://github.com/emrealtinok/sudoku_solvers/blob/main/SudokuBacktracking.py)
 
 This AI only has around 50 lines of code. I used a recurrent backtracking function that tries numbers from 1 to 9 one by one if they satisfy the basic constraints/rules of the Sudoku puzzle. If the algorithm gets stuck, it takes a step back and tries the next possible number until it solves the puzzle.
 
-It was able to solve all 1000 test puzzles in an hour, and it was able to solve the world's hardest Sudoku puzzle in 5 seconds.  
+It was able to solve all 1000 test puzzles, and it was able to solve the world's hardest Sudoku puzzle in 5 seconds.  
 
 This AI is by far the most efficient and accurate one. 
 
 ## AI #3: Building a densely connected deep convolutional neural network
 
 File Name: SudokuDenseNet.ipynb
+[Go to file](https://github.com/emrealtinok/sudoku_solvers/blob/main/SudokuDenseNet.ipynb)
 
-I also wanted to see if neural networks can learn to solve Sudoku puzzles. I used TensorFlow and Google Colab to have access to their GPUs.
+I also wanted to see if neural networks can learn to solve Sudoku puzzles. I used TensorFlow and Google Colab to have access to GPUs.
 
 I imported 3 million puzzles to train my model from this website: https://www.kaggle.com/radcliffe/3-million-sudoku-puzzles-with-ratings
 
@@ -49,7 +52,7 @@ When I evaluated the model on the test puzzles, it got an accuracy of 94%. Howev
 
 It was able to solve 907 of the 1000 test puzzles. It couldn't solve the world's hardest Sudoku puzzle.
 
-In conclusion, the final model was quite good at learning, and it definitely has more room to grow. With better processing power, deeper or wider networks, more precise hyperparameters and longer learning time I believe that neural networks can come to close to being 100% accurate at solving Sudoku puzzles. 
+In conclusion, the final model was quite good at learning, and it definitely has more room to grow. With more processing power, deeper or wider networks, more precise hyperparameters and longer learning time I believe that neural networks can come close to being 100% accurate at solving Sudoku puzzles. 
 
 
 
