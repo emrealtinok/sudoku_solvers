@@ -8,7 +8,7 @@ This as an ongoing side project to practice what I learn and explore how I can i
 
 ## AI #1: Translating Sudoku solving techniques into code
 
-File name: SudokuHumanTechniques.py 
+File name: SudokuHumanTechniques.py  
 [Go to file](https://github.com/emrealtinok/sudoku_solvers/blob/main/SudokuHumanTechniques.py)
 
 In order to implement this AI, I made use of object-oriented programming. The Sudoku grid is a two dimensional Numpy array of 81 objects that represent each unit of the Sudoku puzzle. Each object has a property that represents the value of the unit and a probability dictionary that holds the binary probabilities of the unit getting each value. 
@@ -24,7 +24,7 @@ It was able to solve 594 of the 1000 test puzzles and it couldn't solve the worl
 
 ## AI #2: Using a backtracking algorithm with Sudoku constraints
 
-File name: SudokuBacktracking.py
+File name: SudokuBacktracking.py  
 [Go to file](https://github.com/emrealtinok/sudoku_solvers/blob/main/SudokuBacktracking.py)
 
 This AI only has around 50 lines of code. I used a recurrent backtracking function that tries numbers from 1 to 9 one by one if they satisfy the basic constraints/rules of the Sudoku puzzle. If the algorithm gets stuck, it takes a step back and tries the next possible number until it solves the puzzle.
@@ -35,7 +35,7 @@ This AI is by far the most efficient and accurate one.
 
 ## AI #3: Building a densely connected deep convolutional neural network
 
-File Name: SudokuDenseNet.ipynb
+File Name: SudokuDenseNet.ipynb  
 [Go to file](https://github.com/emrealtinok/sudoku_solvers/blob/main/SudokuDenseNet.ipynb)
 
 I also wanted to see if neural networks can learn to solve Sudoku puzzles. I used TensorFlow and Google Colab to have access to GPUs.
