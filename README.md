@@ -35,7 +35,7 @@ This AI is by far the most efficient and accurate one.
 
 File Name: SudokuDenseNet.ipynb
 
-I also wanted to see if neural networks can learn to solve Sudoku puzzles. I used TensorFLow and Google Colab to have access to their GPUs.
+I also wanted to see if neural networks can learn to solve Sudoku puzzles. I used TensorFlow and Google Colab to have access to their GPUs.
 
 I imported 3 million puzzles to train my model from this website: https://www.kaggle.com/radcliffe/3-million-sudoku-puzzles-with-ratings
 
